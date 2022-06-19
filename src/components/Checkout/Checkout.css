@@ -1,0 +1,34 @@
+.checkout__container {
+  margin: auto;
+  width: 95%;
+}
+
+.checkout__content-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 10px;
+}
+
+.checkout__content-body-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  background-color: #b37382;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.checkout__content-body-right {
+  background-color: #b37382;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.checkout__content-body-right-body-item.buttons button {
+  margin: 10px;
+}
