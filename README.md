@@ -6,7 +6,7 @@ The project is deployed on Netlify.
 
 ## URL
 
-[https://shan-crypto-2022.netlify.app/](https://shan-shopping-cart.netlify.app/)
+https://shan-shopping-cart.netlify.app/
 
 
 ## Installation Client 
