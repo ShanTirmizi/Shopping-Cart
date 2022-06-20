@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Products from "../components/Products/Products";
 import Nav from "../components/Nav/Nav";
 import "../Pages/HomePage.css";
+import { PropTypes } from "prop-types";
 
 const HomePage = () => {
   const [productData, setProductData] = useState([]);
@@ -66,6 +67,15 @@ const HomePage = () => {
       )}
     </>
   );
+};
+
+HomePage.PropTypes = {
+  productData: PropTypes.array,
+  cartData: PropTypes.array,
+  isLoading: PropTypes.bool,
+  addToCart: PropTypes.func,
+  removeFromCart: PropTypes.func,
+  clearCart: PropTypes.func,
 };
 
 export default HomePage;
