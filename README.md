@@ -21,4 +21,3 @@ npm start
 
 ## If I had more time I would have
 - Created unit tests
-- Added proptypes 
